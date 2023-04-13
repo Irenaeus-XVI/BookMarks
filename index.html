@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BockMarks</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- //SECTION - HEADER -->
+    <header>
+        <div class="container p-5  ">
+            <h3 class="fs-2">
+                Bookmarker
+            </h3>
+        </div>
+    </header>
+
+
+    <!-- //SECTION - CONTENT -->
+    <div class="container  p-4 custom">
+        <div class="content text-center  p-5 fw-bolder">
+            <h2 class="mb-3">Bookmark your favorite sites </h2>
+            <p class="mb-2">Site Name</p>
+            <input type="text" class="form-control mb-3" placeholder="BookMark Name" id="bockMarkName">
+            <p class=" text-danger d-none" id="NameWarning">Name is required</p>
+            <p class="mb-2">Site URL</p>
+            <input type="text" class="form-control mb-3" placeholder="Website url" id="bockMarkUrl">
+            <p class=" text-danger d-none" id="urlWarning">Url Field is required</p>
+
+            <button class="btn btn-primary " id="addBtn">Submit</button>
+        </div>
+    </div>
+
+
+    <!-- //SECTION - CONTENT -->
+    <div class="container  p-4 ">
+        <div class="content-table  text-center  p-5 fw-bolder d-none">
+            <table class="table ">
+                <tbody id="tbody">
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <!-- //SECTION - FOOTER -->
+    <footer class="footer">
+        <div class="container p-3">
+            <div class="footer-content p-2 ">
+                <span> &copy; 2019 Bookmarker Inc.</span>
+            </div>
+
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
